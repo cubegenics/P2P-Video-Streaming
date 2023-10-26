@@ -8,9 +8,6 @@
 *********************/
 // Data class represent the chunk of data 
 // sent over connection.
-// Chunk size is specified by the parameter 
-// passed in constructor, everytime getData() is called
-// that chunkSize is read
 
 const int CHUNK_SIZE = 1024 * 1024;
 
