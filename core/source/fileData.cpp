@@ -20,7 +20,6 @@ FileData::FileData(std::string name, FTYPE type)
 	fileStream.seekg(0, fileStream.end);
 	if(type == FTYPE::READ)
 		fileSize = fileStream.tellg();
-	fileStream.seekg(0, fileStream.beg);
 }
 
 FileData::~FileData()
