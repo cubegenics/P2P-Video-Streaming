@@ -1,5 +1,0 @@
-#!/bin/bash
-
-
-cd ./centralServer
-./central.exe $1 2045
