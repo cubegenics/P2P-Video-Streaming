@@ -1,4 +1,0 @@
-#!/bin/bash
-
-cd ./server
-./server.exe $1 2050
